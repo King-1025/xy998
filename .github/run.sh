@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 ROOT=$(pwd)
+
+ls $ROOT
+exit 0
+
 RELEASE=$ROOT/../app/build/outputs/apk
 OUTPUT=$ROOT/output
 KS=$ROOT/extra/debug.jks
