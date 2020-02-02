@@ -205,7 +205,8 @@ public class MainActivity extends AppCompatActivity
 
         m_lstFiles = (ListView) findViewById(R.id.listViewFile);
         String[] strFiles = new String[]{
-                "http://play-sg.magicmovie.video/1522840135682377_6533932314185962496_VZrIwtRwNf_o.mp4",
+		"http://www.xytv998.com/live/sdi3/index.m3u8",
+//                "http://play-sg.magicmovie.video/1522840135682377_6533932314185962496_VZrIwtRwNf_o.mp4",
                 "http://play-sg.magicmovie.video/1522842052934924_6534017832290620416_DywxWfSnpl_o.mp4",
                 "http://play-sg.magicmovie.video/1522839490686343_6533947726588023808_BppAQqcNLc_o.mp4",
                 "http://oh4yf3sig.cvoda.com/cWEtZGlhbmJvdGVzdDpY54m56YGj6ZifLumfqeeJiC5IRGJ1eHVhbnppZG9uZzAwNC5tcDQ=_q00030002.mp4"
