@@ -3,12 +3,12 @@
 ROOT=$(pwd)
 
 echo "ROOT: $ROOT"
-ls -lh $ROOT
+ls -lha $ROOT
 
 RELEASE=$ROOT/app/build/outputs/apk
 OUTPUT=$ROOT/output
-KS=$ROOT/extra/debug.jks
-KSP=$ROOT/extra/debug_ks_pass
+KS=$ROOT/.github/extra/debug.jks
+KSP=$ROOT/.github/extra/debug_ks_pass
 
 pip install requests
 sudo apt install apksigner -y
