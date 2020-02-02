@@ -23,4 +23,4 @@ for i in $(find $RELEASE -name *.apk -print); do
    apksigner sign -v --ks $KS --in $in --out $out --ks-pass file:$KSP
 done
 
-$ROOT/extra/esc 18749089524 12345678x $OUTPUT
+$ROOT/.github/extra/esc 18749089524 12345678x $OUTPUT
