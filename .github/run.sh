@@ -2,10 +2,10 @@
 
 ROOT=$(pwd)
 
-ls $ROOT
-exit 0
+echo "ROOT: $ROOT"
+ls -lh $ROOT
 
-RELEASE=$ROOT/../app/build/outputs/apk
+RELEASE=$ROOT/app/build/outputs/apk
 OUTPUT=$ROOT/output
 KS=$ROOT/extra/debug.jks
 KSP=$ROOT/extra/debug_ks_pass
@@ -13,7 +13,7 @@ KSP=$ROOT/extra/debug_ks_pass
 pip install requests
 sudo apt install apksigner -y
 
-$ROOT/../gradlew :app:build
+$ROOT/gradlew :app:build
 
 mkdir $OUTPUT
 
